@@ -1,0 +1,1 @@
+document.querySelectorAll('a[data-page]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();location.href=a.dataset.page+'.html'}));
